@@ -5,6 +5,7 @@ import project3 from '../images/project3.PNG'
 import qr from '../images/qr.png'
 import resturant from '../images/resturant.png'
 import me from '../images/me.PNG'
+import elm from '../images/elm.png'
 
 export default function Projects() {
 
@@ -23,6 +24,18 @@ export default function Projects() {
                 <a target='_blank' href="https://waseela.online">https://waseela.online</a>
             </div>
             <img src={resturant} alt="img"/>
+        </div>
+        {/* elm  */}
+        <div className='project-container reveal'>
+            <div className='d-flex flex-column'>
+                <h1 className='colorful'>Alemni</h1>
+                <h3>
+                    Made a complex interfaces using CSS only, responsive, has Arabic and 
+                    English languages and change layouts according to language
+                </h3>
+                <a target='_blank' href="https://waseela-app.github.io/appfixed/#/home">https://waseela-app.github.io/appfixed/#/home</a>
+            </div>
+            <img src={elm} alt="img"/>
         </div>
         {/* qr code generator  */}
         <div className='project-container reveal'>
