@@ -49,6 +49,7 @@ body h1{
     background-color: white;
     border-radius: 20px;
     box-shadow: 3px 3px 10px gray;
+    overflow: hidden;
 }
 
 .slide div:nth-child(6){
@@ -105,6 +106,7 @@ body h1{
     display: flex;
     justify-content: center;
     padding: 50px 0px;
+    overflow: hidden;
 }
 
 .break h1{
@@ -140,7 +142,6 @@ body h1{
     padding-top: 30px;
     opacity: 0;
 }
-
 
 .download h1:nth-child(2){
     padding-inline: 50px;
