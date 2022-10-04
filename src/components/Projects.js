@@ -45,7 +45,7 @@ export default function Projects() {
                     Made a simple page for generating QR code by typing
                     the URL only, then you could download the QR code, built using react.
                 </h3>
-                <a target='_blank' href="https://qr.waseela.online">https://qr.waseela.online</a>
+                <a target='_blank' href="https://qrcode.waseela.online">https://qrcode.waseela.online</a>
             </div>
             <img src={qr} alt="img"/>
         </div>
